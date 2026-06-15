@@ -8,7 +8,11 @@ x = y = z = "Orange" #multiple variables are assigned to the same value in one l
 # print(y)
 # print(z)
 
-fruits = ["Apple", "Banana", "Cherry"]
-a, b, c = fruits #unpacking a list into multiple variables
-print(a)
+fruits = ("Apple", "Banana", "Cherry")
+i = {"name" : "John", "age" : 36}
+# a, b, c = fruits #unpacking a list into multiple variables
+print(type(i))
 # Apple
+
+x = True
+print(type(x))
