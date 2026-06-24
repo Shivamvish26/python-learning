@@ -108,4 +108,74 @@ print(name[-1])
 
 # 17. Using Negative indexing print
 print(name[-1:-7:-1]) 
+# 
 
+# 18. Predict the output
+print(name[1:4])
+# hiv
+
+# 19. Predic the output
+print(name[::-1])  #[start:stop:step] this is the negative indexing for slicing reversing the string
+# mavihs
+
+# 20. Check whether "VAM" is present in name or not
+if "vam" in name:
+    print("Vam is present in Shivam")
+else:
+    print("Vam is not present in Shivam")    
+
+# vam is present in Shivam
+
+# 21. Convert the string in upper case
+txt = "Python"
+print(txt.upper())
+# PYTHON
+
+# 22. count how many times apple appears
+txt1 = " apple apple mango apple"
+print(txt1.count("apple"))
+# 3
+
+# 23. Predict the output
+txt2 = "Hello World"
+print(txt2[-5:-2])
+# Wor
+
+# 24. Predict the output
+print(bool("Hello"))
+# True
+
+# 25. Predict the output
+print(bool(""))
+# False
+
+# 26. Predict the the output
+print(bool(100))
+# True
+
+# 27. Predict the output
+print(bool(0))
+# False
+
+# 28. write an if-else statment
+name2 = ""
+
+if name2 == "":
+    print("Name is empty")
+else:
+    print("Name is Present") 
+# Name is empty
+
+# 29. predict the output
+x = "25"
+y = "5"
+print (x + y)
+# 255
+
+# 30. Predict the output
+x = "25"
+y = 5
+print(int(x)+y)
+# 30
+
+# 31. 
