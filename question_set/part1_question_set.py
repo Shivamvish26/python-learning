@@ -178,4 +178,22 @@ y = 5
 print(int(x)+y)
 # 30
 
-# 31. 
+# 31. predict the output
+name3 = "Python"
+print(len(name3))
+# 6
+
+# 32. without using len() print the last char of
+print(name3[-1])
+
+# String and number can operate together wuth the *
+A,B=2,3
+Txt_2="@"
+print(2*Txt_2*3)
+# @@@@@@
+
+# String and stringcan operate with the help of +
+C,D="2",3
+Text_3="@"
+print((C+Text_3)*3)
+# 2@2@2@
